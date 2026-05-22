@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @NoArgsConstructor
+@Table(name="orders")
 public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id

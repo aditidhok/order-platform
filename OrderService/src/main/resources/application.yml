@@ -1,8 +1,10 @@
-#spring.application.name=OrderService
-
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/ecom
     username: postgres
     password: terenaam
+
+  jpa:
+    hibernate:
+      ddl-auto: create
 
